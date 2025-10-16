@@ -1,11 +1,11 @@
-DEPTID,DEPTNAME
-D001,Human Resources
-D002,Finance
-D003,Sales
-D004,Marketing
-D005,IT
-D006,Customer Support
-D007,Logistics
-D008,Administration
-D009,Research and Development
-D010,Operations
+DEPTID,DEPTNAME,DESC
+D001,Human Resources,Handles employee relations and HR policies
+D002,Finance,Manages company finances and budgets
+D003,Sales,Responsible for sales and client acquisition
+D004,Marketing,Handles branding and promotions
+D005,IT,Maintains IT systems and technical infrastructure
+D006,Customer Support,Provides customer service and assistance
+D007,Logistics,Manages supply chain and transportation
+D008,Administration,Handles office administration tasks
+D009,R&D,Research and development of new products
+D010,Operations,Oversees daily business operations
