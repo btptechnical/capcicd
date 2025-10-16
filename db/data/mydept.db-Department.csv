@@ -1,11 +1,11 @@
-DEPTID,DEPTNAME,DESC
-D001,Human Resources,Handles employee relations and HR policies
-D002,Finance,Manages company finances and budgets
-D003,Sales,Responsible for sales and client acquisition
-D004,Marketing,Handles branding and promotions
-D005,IT,Maintains IT systems and technical infrastructure
-D006,Customer Support,Provides customer service and assistance
-D007,Logistics,Manages supply chain and transportation
-D008,Administration,Handles office administration tasks
-D009,R&D,Research and development of new products
-D010,Operations,Oversees daily business operations
+DEPTID,DEPTNAME,DESC,DEPTLOC
+D001,Human Resources,Handles hiring, payroll and HR policies,New York
+D002,Finance,Manages budgeting and financial planning,Chicago
+D003,Sales,Responsible for domestic and international sales,San Francisco
+D004,Marketing,Handles branding, advertising and campaigns,Boston
+D005,IT,Manages networks, software and infrastructure,Seattle
+D006,Customer Support,Handles customer complaints and service,Dallas
+D007,Logistics,Manages supply chain and product delivery,Atlanta
+D008,Administration,Responsible for office and facility management,Los Angeles
+D009,Research and Development,Develops new products and innovations,Austin
+D010,Operations,Ensures smooth business operations,Denver
