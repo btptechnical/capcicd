@@ -24,6 +24,7 @@ modules:
         properties:
           srv-url: ${default-url}
     requires:
+      - name: mydept-auth
       - name: mydept-db
 
   - name: mydept-db-deployer
@@ -35,6 +36,15 @@ modules:
       - name: mydept-db
 
 resources:
+  - name: mydept-auth
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: xsuaa
+      service-plan: application
+      path: ./xs-security.json
+      config:
+        xsappname: mydept-${org}-${space}
+        tenant-mode: dedicated
   - name: mydept-db
     type: com.sap.xs.hdi-container
     parameters:
